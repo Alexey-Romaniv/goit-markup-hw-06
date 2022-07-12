@@ -579,15 +579,13 @@ img {
   transition: fill var(--time-animation) var(--cubic-bezier);
 }
 
-.modal .label:hover .input,
 .modal .label:focus-within .input,
-.modal .comment-label:hover .comment,
 .modal .comment-label:focus-within .comment {
   border-color: var(--accent-color);
   outline: none;
 }
 
-.modal .label:hover .icon-input,
+
 .modal .label:focus-within .icon-input {
   fill: var(--accent-color);
 }
@@ -637,13 +635,13 @@ img {
   transition: border-color var(--time-animation) var(--cubic-bezier);
 }
 
-.checkbox-field:hover .icon-checkbox,
+
 .checkbox-field :focus-within .icon-checkbox {
   border-color: var(--accent-color);
 }
 
 .checkbox-field .checkbox:checked+.icon-checkbox {
-  background-image: url('/images/icon-check.svg');
+  background-image: url('../images/icon-check.svg');
   background-size: contain;
   background-color: var(--accent-color);
   background-origin: border-box;
